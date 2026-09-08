@@ -60,7 +60,7 @@
         </div>
 
         <div class="footer__base footer__base--center">
-            <span>All Rights Reserved by <?= e(APP_NAME) ?> &mdash; Web Technologies, Group 01</span>
+            <span>All Rights Reserved by <?= e(APP_NAME) ?> &mdash; Web Technologies, Group 11</span>
         </div>
     </div>
 </footer>
