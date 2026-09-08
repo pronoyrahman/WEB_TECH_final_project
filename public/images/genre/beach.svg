@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Beach destinations">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0087fb"/><stop offset=".55" stop-color="#8fd8f5"/><stop offset="1" stop-color="#fde3a7"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#02b5fb"/><stop offset="1" stop-color="#0056c7"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fce8a3"/><stop offset="1" stop-color="#fcd888"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#fdb801" stop-opacity=".85"/><stop offset="1" stop-color="#fdb801" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#sky)"/>
+  <circle cx="470" cy="300" r="180" fill="url(#glow)"/>
+  <circle cx="470" cy="300" r="76" fill="#fdb801"/>
+
+  <!-- far headland -->
+  <path d="M0 452c90-34 150 6 232-10 74-14 120-40 196-30 74 10 132 44 214 30 66-11 110-26 158-38v58H0z" fill="#0069e6" opacity=".55"/>
+
+  <!-- sea -->
+  <path d="M0 470h800v170H0z" fill="url(#sea)"/>
+  <g fill="#fff" opacity=".5">
+    <path d="M90 520h130a34 34 0 0 1-130 0z"/>
+    <path d="M420 552h150a38 38 0 0 1-150 0z"/>
+    <path d="M250 596h180a42 42 0 0 1-180 0z"/>
+  </g>
+  <!-- sun path on the water -->
+  <path d="M446 470h48l-14 170h-20z" fill="#fde3a7" opacity=".55"/>
+
+  <!-- surf and sand -->
+  <path d="M0 626c110 0 150 22 270 22s180-24 300-24 172 16 230 16v20H0z" fill="#fff" opacity=".85"/>
+  <path d="M0 648c120 0 156 18 276 18s182-20 302-20 164 12 222 12v142H0z" fill="url(#sand)"/>
+
+  <!-- palm -->
+  <path d="M182 800c6-96 14-176 30-262" stroke="#a35400" stroke-width="17" fill="none" stroke-linecap="round"/>
+  <g fill="#058704">
+    <path d="M212 540c-52-30-104-20-132 14 48-8 92 0 132 12z"/>
+    <path d="M212 540c50-32 104-24 134 10-48-10-93-4-134 12z"/>
+    <path d="M212 540c-16-54 4-100 50-124-24 38-40 80-46 118z"/>
+    <path d="M212 540c26-48 74-70 128-60-44 12-90 28-122 62z"/>
+  </g>
+  <g fill="#0aa30a" opacity=".8">
+    <path d="M212 540c-44-10-84 8-108 42 40-24 76-34 112-30z"/>
+    <path d="M212 540c-6-42-2-78 18-110-2 40-6 76-12 112z"/>
+  </g>
+  <circle cx="212" cy="540" r="13" fill="#a35400"/>
+
+  <!-- foliage clump -->
+  <g fill="#058704">
+    <circle cx="700" cy="694" r="40"/><circle cx="752" cy="712" r="34"/><circle cx="656" cy="716" r="30"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#01278a" stroke-width="6" fill="none" stroke-linecap="round" opacity=".65">
+    <path d="M602 196c12-14 24-14 36 0"/>
+    <path d="M646 158c10-12 20-12 30 0"/>
+  </g>
+</svg>

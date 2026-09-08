@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="">
+  <!-- Used by empty results and empty lists: a map with nothing pinned to it. -->
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eaf1fd"/>
+    </linearGradient>
+    <linearGradient id="pin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0087fb"/><stop offset="1" stop-color="#01278a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- folded map -->
+  <path d="M40 60l72-22 96 22 72-22v144l-72 22-96-22-72 22z" fill="url(#paper)"
+        stroke="#0069e6" stroke-opacity=".28" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M112 38v144M208 60v144" stroke="#0069e6" stroke-opacity=".22" stroke-width="3" stroke-dasharray="7 8"/>
+
+  <!-- routes and land shapes -->
+  <path d="M62 118c26-16 44 6 72-6s44 14 72 2 42 8 62-4" stroke="#01a6fb" stroke-opacity=".5"
+        stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M58 156c30 10 52-8 84 2s52-6 84 2 40-4 54-10" stroke="#fdb801" stroke-opacity=".55"
+        stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="6 9"/>
+  <g fill="#058704" fill-opacity=".22">
+    <ellipse cx="86" cy="92" rx="22" ry="13"/>
+    <ellipse cx="240" cy="132" rx="26" ry="15"/>
+  </g>
+
+  <!-- an empty pin outline, waiting to be filled -->
+  <path d="M160 78a30 30 0 0 1 30 30c0 20-30 48-30 48s-30-28-30-48a30 30 0 0 1 30-30z"
+        fill="none" stroke="url(#pin)" stroke-width="5" stroke-dasharray="9 8" stroke-linecap="round"/>
+  <circle cx="160" cy="108" r="9" fill="none" stroke="#0069e6" stroke-opacity=".45" stroke-width="4"/>
+
+  <!-- the swoosh, small -->
+  <path d="M96 196c40 16 128 20 176-2" stroke="#fc7701" stroke-opacity=".5" stroke-width="5"
+        fill="none" stroke-linecap="round"/>
+</svg>

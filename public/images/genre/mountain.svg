@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Mountain destinations">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0056c7"/><stop offset=".5" stop-color="#0087fb"/><stop offset="1" stop-color="#fde3a7"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0069e6"/><stop offset="1" stop-color="#0048b6"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0048b6"/><stop offset="1" stop-color="#01278a"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#02b5fb"/><stop offset="1" stop-color="#0069e6"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#fdb801" stop-opacity=".8"/><stop offset="1" stop-color="#fdb801" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#sky)"/>
+  <circle cx="596" cy="250" r="150" fill="url(#glow)"/>
+  <circle cx="596" cy="250" r="62" fill="#fdb801"/>
+
+  <!-- far range -->
+  <path d="M0 560l150-190 110 130 90-104 128 150 118-136 204 234v16H0z" fill="url(#far)" opacity=".85"/>
+  <path d="M150 370l58 68-58 32-50-36z" fill="#fff" opacity=".9"/>
+  <path d="M478 396l56 64-56 30-48-34z" fill="#fff" opacity=".75"/>
+
+  <!-- near peak -->
+  <path d="M0 620l236-306 150 186 96-112 318 252v10H0z" fill="url(#near)"/>
+  <path d="M236 314l74 92-74 42-64-46z" fill="#fff"/>
+  <path d="M386 494l50 58-50 28-42-32z" fill="#fff" opacity=".85"/>
+  <path d="M482 388l62 76-62 34-52-38z" fill="#fff" opacity=".7"/>
+
+  <!-- lake -->
+  <path d="M0 640h800v160H0z" fill="url(#lake)"/>
+  <!-- reflected peak -->
+  <path d="M236 800l-64-46 64-42 74 42z" fill="#fff" opacity=".22"/>
+  <g fill="#fff" opacity=".35">
+    <path d="M96 690h150a38 38 0 0 1-150 0z"/>
+    <path d="M470 730h180a44 44 0 0 1-180 0z"/>
+  </g>
+
+  <!-- pines -->
+  <g fill="#058704">
+    <path d="M112 640l30-72 30 72z"/><path d="M120 604l22-52 22 52z"/>
+    <path d="M180 640l24-58 24 58z"/>
+    <path d="M660 640l28-68 28 68z"/><path d="M668 606l20-48 20 48z"/>
+    <path d="M718 640l22-54 22 54z"/>
+  </g>
+  <g fill="#a35400">
+    <rect x="137" y="636" width="10" height="16"/><rect x="199" y="636" width="10" height="14"/>
+    <rect x="683" y="636" width="10" height="16"/><rect x="735" y="636" width="10" height="14"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#01278a" stroke-width="6" fill="none" stroke-linecap="round" opacity=".55">
+    <path d="M236 200c12-14 24-14 36 0"/>
+    <path d="M290 168c10-12 20-12 30 0"/>
+  </g>
+</svg>
